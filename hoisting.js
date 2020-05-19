@@ -19,14 +19,14 @@ var crazy = function() {
   crazy();
 
 
-function sayMyName() {
+var sayMyName = function() {
   // fix the code in here:
-  var name = "Cricky";
-
-  sayMy();
+  var name ;
+  name = "Cricky";
 
   function sayMy() {
     console.log(name);
-    var name = "Kristin";
+    name = "Kristin";
   }
+sayMy();
 }
