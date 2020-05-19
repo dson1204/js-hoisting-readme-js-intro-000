@@ -8,6 +8,15 @@ var callMe = function callMe() {
   return lyric;
 }
 
+function crazy() {
+// fix the code in here:
+   thisIsCrazy();
+
+   var thisIsCrazy = function (){
+     console.log("hey!!!")
+   }
+ }
+
 
 var crazy = function() {
   // fix the code in here:
